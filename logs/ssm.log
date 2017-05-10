@@ -1,0 +1,616 @@
+[INFO][main][2017-04-16 21:11:18][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-16 21:11:18][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Apr 16 21:11:18 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-16 21:11:18][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-16 21:11:19][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-16 21:11:19][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 21:11:20][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2515 ms
+[INFO][main][2017-04-16 21:11:21][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-16 21:11:21][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Apr 16 21:11:21 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-16 21:11:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-16 21:11:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:11:22][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 1290 ms
+[INFO][main][2017-04-16 21:12:28][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-16 21:12:28][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Apr 16 21:12:28 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-16 21:12:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-16 21:12:29][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-16 21:12:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 21:12:30][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1435 ms
+[INFO][main][2017-04-16 21:12:30][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-16 21:12:30][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Apr 16 21:12:30 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-16 21:12:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-16 21:12:30][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:12:31][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 948 ms
+[WARN][qtp1738561265-17][2017-04-16 21:13:10][org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] - Request method 'GET' not supported
+[INFO][qtp1738561265-19][2017-04-16 21:13:21][com.jnshu.controller.StudentController] - 查询所有用户信息
+[INFO][qtp1738561265-15][2017-04-16 21:13:43][com.jnshu.controller.StudentController] - 输入登陆用户名和密码
+[INFO][qtp1738561265-13][2017-04-16 21:13:51][com.jnshu.controller.StudentController] - 输入成功Student{id=0, stu_name='CK', stu_pwd='123', stu_QQ='null', course='null', stu_date='null', school='null', stu_ID=0, daily_link='null', hope='null', yinjian='null', shenhe='null', create_at=0, update_at=0}
+[INFO][qtp1738561265-17][2017-04-16 21:13:51][com.jnshu.controller.StudentController] - 查询所有用户信息
+[INFO][qtp1738561265-19][2017-04-16 21:15:53][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][qtp1738561265-16][2017-04-16 21:16:50][com.jnshu.controller.StudentController] - 查询所有用户信息
+[INFO][qtp1738561265-18][2017-04-16 21:34:51][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][main][2017-04-16 21:50:56][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-16 21:50:56][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Apr 16 21:50:56 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-16 21:50:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-16 21:50:58][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-16 21:50:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][qtp1738561265-19][2017-04-16 21:50:59][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][main][2017-04-16 21:50:59][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3150 ms
+[INFO][main][2017-04-16 21:50:59][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-16 21:50:59][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Apr 16 21:50:59 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-16 21:50:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-16 21:51:00][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 21:51:02][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 3066 ms
+[WARN][qtp1738561265-15][2017-04-16 21:51:05][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[INFO][main][2017-04-16 22:10:13][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-16 22:10:13][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Apr 16 22:10:13 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-16 22:10:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-16 22:10:14][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-16 22:10:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 22:10:14][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1254 ms
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-16 22:10:15][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sun Apr 16 22:10:15 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-16 22:10:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-16 22:10:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-16 22:10:15][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 733 ms
+[INFO][qtp1186989416-19][2017-04-16 22:10:36][com.jnshu.controller.StudentController] - ------>正在登录
+[INFO][qtp1186989416-20][2017-04-16 22:10:49][com.jnshu.controller.StudentController] - ----->Student{id=0, stu_name='fawe', stu_pwd='wefq', stu_QQ='refgqw', course='regw', stu_date='rtgheq', school='rtghw', stu_ID=0, daily_link='rthe', hope='rhetq', yinjian='null', shenhe='null', create_at=0, update_at=0}
+[INFO][main][2017-04-17 09:45:56][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 09:45:56][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 09:45:56 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 09:45:56][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 09:45:57][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 09:45:57][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 09:45:58][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2142 ms
+[INFO][main][2017-04-17 09:45:58][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 09:45:58][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 09:45:58 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 09:45:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 09:45:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 09:45:59][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 1112 ms
+[INFO][qtp1545666472-14][2017-04-17 09:55:55][com.jnshu.controller.StudentController] - 查询所有用户信息
+[WARN][qtp1545666472-13][2017-04-17 09:56:01][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[INFO][qtp1545666472-20][2017-04-17 09:56:03][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][main][2017-04-17 13:07:40][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 13:07:40][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 13:07:40 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 13:07:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 13:07:41][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 13:07:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:07:42][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2083 ms
+[INFO][main][2017-04-17 13:07:42][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 13:07:42][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 13:07:42 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 13:07:42][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 13:07:42][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:07:43][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 1046 ms
+[INFO][qtp1545666472-17][2017-04-17 13:11:02][com.jnshu.controller.StudentController] - 查询所有用户信息
+[INFO][qtp1545666472-19][2017-04-17 13:11:10][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][main][2017-04-17 13:27:04][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 13:27:05][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 13:27:05 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 13:27:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 13:27:05][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 13:27:05][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:27:06][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1441 ms
+[INFO][main][2017-04-17 13:27:06][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 13:27:06][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 13:27:06 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 13:27:06][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 13:27:06][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:27:07][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 1043 ms
+[INFO][qtp184244257-13][2017-04-17 13:27:12][com.jnshu.controller.StudentController] - 查询所有用户信息
+[INFO][qtp184244257-16][2017-04-17 13:27:19][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][qtp184244257-19][2017-04-17 13:27:31][com.jnshu.controller.StudentController] - 修改成功
+[INFO][main][2017-04-17 13:36:24][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 13:36:24][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 13:36:24 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 13:36:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 13:36:25][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 13:36:25][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:36:25][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1171 ms
+[INFO][main][2017-04-17 13:36:25][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 13:36:25][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 13:36:25 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 13:36:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 13:36:25][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:36:26][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 785 ms
+[INFO][qtp184244257-15][2017-04-17 13:36:54][com.jnshu.controller.StudentController] - 查询所有用户信息
+[INFO][qtp184244257-17][2017-04-17 13:36:57][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][qtp184244257-16][2017-04-17 13:37:14][com.jnshu.controller.StudentController] - 修改成功
+[INFO][main][2017-04-17 13:44:44][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 13:44:44][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 13:44:44 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 13:44:44][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 13:44:45][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 13:44:45][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:44:45][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1222 ms
+[INFO][main][2017-04-17 13:44:46][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 13:44:46][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 13:44:46 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 13:44:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 13:44:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:44:47][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 976 ms
+[INFO][main][2017-04-17 13:48:56][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 13:48:56][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 13:48:56 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 13:48:56][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 13:48:57][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 13:48:57][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:48:58][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1376 ms
+[INFO][main][2017-04-17 13:48:58][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 13:48:58][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 13:48:58 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 13:48:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 13:48:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 13:48:59][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 976 ms
+[INFO][main][2017-04-17 18:43:36][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-17 18:43:36][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 17 18:43:36 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-17 18:43:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-17 18:43:37][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-17 18:43:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 18:43:37][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1691 ms
+[INFO][main][2017-04-17 18:43:37][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-17 18:43:37][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Apr 17 18:43:37 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-17 18:43:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-17 18:43:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-17 18:43:40][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 2387 ms
+[INFO][main][2017-04-25 23:26:23][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-25 23:26:23][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Apr 25 23:26:23 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-25 23:26:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-25 23:26:24][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-25 23:26:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-25 23:26:24][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1164 ms
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-25 23:26:25][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Apr 25 23:26:25 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-25 23:26:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-25 23:26:25][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/login] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/list] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/add] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task_2/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:26:25][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 706 ms
+[INFO][qtp811792884-14][2017-04-25 23:26:48][com.jnshu.controller.StudentController] - 查询所有用户信息
+[WARN][qtp811792884-15][2017-04-25 23:26:54][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+[INFO][qtp811792884-20][2017-04-25 23:27:02][com.jnshu.controller.StudentController] - 修改学员信息
+[INFO][main][2017-04-25 23:30:44][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-25 23:30:44][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Apr 25 23:30:44 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-25 23:30:44][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-25 23:30:45][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-25 23:30:45][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-25 23:30:45][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1487 ms
+[INFO][main][2017-04-25 23:30:45][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-25 23:30:45][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Apr 25 23:30:45 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-25 23:30:45][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-25 23:30:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/login] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/list] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/add] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:30:46][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 713 ms
+[WARN][qtp811792884-17][2017-04-25 23:30:54][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/Task4/student/list] in DispatcherServlet with name 'SpringMVC'
+[INFO][main][2017-04-25 23:31:16][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-04-25 23:31:16][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Apr 25 23:31:16 CST 2017]; root of context hierarchy
+[INFO][main][2017-04-25 23:31:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO][main][2017-04-25 23:31:17][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [jdbc.properties]
+[INFO][main][2017-04-25 23:31:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-25 23:31:18][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1415 ms
+[INFO][main][2017-04-25 23:31:18][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-04-25 23:31:18][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Apr 25 23:31:18 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-04-25 23:31:18][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-04-25 23:31:18][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/registfrom] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/registfrom.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/registfrom/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/regist] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/regist.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/regist/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/loginto] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/loginto.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/loginto/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/login] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/login.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/login/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/list] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/list.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/list/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/add] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/add.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/add/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/addStu] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/addStu.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/addStu/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/delete/{id}] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/delete/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/delete/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/update/{id}] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/update/{id}.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/update/{id}/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/updateStu] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/updateStu.*] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/Task4/student/updateStu/] onto handler 'studentController'
+[INFO][main][2017-04-25 23:31:19][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 988 ms
+[ERROR][main][2017-05-09 18:39:21][com.schooner.MemCached.SchoonerSockIOPool] - attempting to get SockIO from uninitialized pool!
+[ERROR][main][2017-05-09 18:39:21][com.schooner.MemCached.SchoonerSockIOPool] - attempting to get SockIO from uninitialized pool!
+[ERROR][main][2017-05-09 18:39:50][com.schooner.MemCached.SchoonerSockIOPool] - attempting to get SockIO from uninitialized pool!
+[ERROR][main][2017-05-09 18:39:50][com.schooner.MemCached.SchoonerSockIOPool] - attempting to get SockIO from uninitialized pool!
+[ERROR][main][2017-05-09 18:41:46][com.schooner.MemCached.SchoonerSockIOPool] - attempting to get SockIO from uninitialized pool!
+[ERROR][main][2017-05-09 18:41:46][com.schooner.MemCached.SchoonerSockIOPool] - attempting to get SockIO from uninitialized pool!
+[INFO][main][2017-05-09 18:55:39][org.springframework.context.support.AbstractApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1554909b: startup date [Tue May 09 18:55:39 CST 2017]; root of context hierarchy
+[INFO][main][2017-05-09 18:55:39][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-memcached.xml]
+[INFO][main][2017-05-09 18:55:40][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [memcached.properties]
+[INFO][main][2017-05-09 19:00:25][org.springframework.context.support.AbstractApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1554909b: startup date [Tue May 09 19:00:25 CST 2017]; root of context hierarchy
+[INFO][main][2017-05-09 19:00:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-memcached.xml]
+[INFO][main][2017-05-09 19:00:25][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [memcached.properties]
+[INFO][main][2017-05-09 19:01:48][org.springframework.context.support.AbstractApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1554909b: startup date [Tue May 09 19:01:48 CST 2017]; root of context hierarchy
+[INFO][main][2017-05-09 19:01:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-memcached.xml]
+[INFO][main][2017-05-09 19:01:49][org.springframework.core.io.support.PropertiesLoaderSupport] - Loading properties file from class path resource [memcached.properties]

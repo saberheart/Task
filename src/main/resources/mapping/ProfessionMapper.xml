@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.dao.ProfessionDao">
+
+    <!--根据方向查看学生-->
+    <select id="getProfessionWithDirection" resultType="com.jnshu.model.Profession">
+        SELECT * FROM  profession WHERE  direction=#{dorection}
+    </select>
+
+    <!--字段的值汇总-->
+    <select id="get" resultType="com.jnshu.model.Profession">
+
+    </select>
+
+
+</mapper>

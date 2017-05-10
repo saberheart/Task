@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.dao.StudentDao">
+
+    <!--登陆查询匹配信息-->
+    <select id="Login" resultType="com.jnshu.model.Student" >
+        SELECT * FROM  task4 WHERE stu_name=#{stu_name}
+    </select>
+    <select id="verification" resultType="com.jnshu.model.Student">
+        SELECT * FROM task4 WHERE  stu_name=#{stu_name} AND stu_pwd=#{stu_pwd}
+    </select>
+    <!--查看所有学生-->
+    <select id="selectAllStudent"  resultType="com.jnshu.model.Student" >
+        SELECT * FROM task4
+    </select>
+    <select id="select" resultType="com.jnshu.model.Student">
+        select * FROM task4 WHERE id=#{id}
+    </select>
+    <!--添加学生-->
+    <insert id="insert" >
+        INSERT INTO  task4(stu_name,stu_pwd) VALUES (#{stu_name},#{stu_pwd});
+    </insert>
+    <insert id="addStudent" useGeneratedKeys="true" keyProperty="id" parameterType="com.jnshu.model.Student">
+        INSERT INTO task4  (stu_name,stu_pwd,stu_QQ,course,stu_date,school,stu_ID,daily_link,hope,yinjian,shenhe,create_at,phone,company,position,introduce)
+        VALUE (#{stu_name},#{stu_pwd},#{stu_QQ},#{course},#{stu_date},#{school},#{stu_ID},#{daily_link},#{hope},#{yinjian},#{shenhe},#{create_at},#{phone},#{company},#{position},#{introduce})
+    </insert>
+
+    <!--删除学生信息-->
+    <delete id="deleteStudentById" parameterType="int">
+        DELETE FROM task4 WHERE  id=#{id}
+    </delete>
+
+    <!--修改学生信息-->
+    <update id="updateStudentById" parameterType="com.jnshu.model.Student">
+        UPDATE task4
+        SET stu_name=#{Student.stu_name},stu_pwd=#{Student.stu_pwd},stu_QQ=#{Student.stu_QQ},course=#{Student.course},stu_date=#{Student.stu_date},school=#{Student.school},
+        stu_ID=#{Student.stu_ID},daily_link=#{Student.daily_link},yinjian=#{Student.yinjian},shenhe=#{Student.shenhe},update_at=#{Student.update_at},phone=#{Student.phone},company=#{Student.company},position=#{Student.position},introduce=#{Student.introduce}
+        WHERE id=#{Student.id}
+    </update>
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.dao.UserDao">
+
+    <!--登陆查询匹配信息-->
+    <select id="selectToUsername" resultType="com.jnshu.model.Student" >
+        SELECT * FROM  task4 WHERE stu_name=#{stu_name}
+    </select>
+    <select id="verification" resultType="com.jnshu.model.Student">
+        SELECT * FROM task4 WHERE  stu_name=#{stu_name} AND stu_pwd=#{stu_pwd}
+    </select>
+    <select id="select" resultType="com.jnshu.model.Student">
+        select * FROM task4 WHERE id=#{id}
+    </select>
+    <!--添加学生-->
+    <insert id="insert" >
+        INSERT INTO  task4(stu_name,stu_pwd) VALUES (#{stu_name},#{stu_pwd});
+    </insert>
+
+
+</mapper>
